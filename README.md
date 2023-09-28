@@ -9,4 +9,6 @@ All documentations for reference to work on a project.
 
 [3. Embedded Software Calculation Notes](Calculation_Notes.md)
 
-[4. ZephyrRTOS Architecture Notes](Zephyr_Notes.md)
+[4. Zephyr Samples & Demos](Zephyr_Samples.md)
+
+[5. Zephyr Architecture Notes](Zephyr_Notes.md)
