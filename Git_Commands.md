@@ -73,3 +73,19 @@ git log
 **5. Saving your changes to use later using `git stash`**
 
 Tutorial: https://opensource.com/article/21/4/git-stash
+
+**6. Remove a file from remote branch**
+```
+git rm --cached <your-file-to-remove>
+git rm --cached -r <some/directory>
+```
+Realistic example:
+```
+git rm --cached .vscode/settings.json
+git rm --cached -r .vscode
+```
+```
+git add .
+git commit -s -m "<your-commit-message>"
+git push
+```
